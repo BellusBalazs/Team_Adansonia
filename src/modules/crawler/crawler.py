@@ -324,7 +324,7 @@ if __name__ == "__main__":
     
     # Single company
     company_name = "Abbott Laboratories"
-    webpage_url, pdf_url, pdf_path = process_company(company_name)
+    webpage_url, pdf_url = process_company(company_name)
     print(f"Webpage URL: {webpage_url}")
     print(f"PDF URL: {pdf_url}")
-    print(f"PDF Path: {pdf_path}")
+    #print(f"PDF Path: {pdf_path}")
