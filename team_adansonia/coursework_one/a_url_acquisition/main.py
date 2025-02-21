@@ -3,9 +3,9 @@ from datetime import datetime
 
 import urllib3
 
-import src.modules.mongo_db.company_data as mongo
-import src.modules.minio.minio_script as minio
-import src.modules.crawler.crawler as crawler
+import team_adansonia.coursework_one.a_url_acquisition.modules.mongo_db.company_data as mongo
+import team_adansonia.coursework_one.a_url_acquisition.modules.minio.minio_script as minio
+import team_adansonia.coursework_one.a_url_acquisition.modules.crawler.crawler as crawler
 
 # Disable warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
