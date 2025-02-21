@@ -23,7 +23,7 @@ def process_and_upload_documents(db, client, year):
         try:
             # Call the crawler function
             result = crawler.process_company(company_name)
-            if result == (None, None, None):  # If no valid result is returned
+            if result == (None, None):  # If no valid result is returned
                 logger.warning(f"No valid result found for {company_name}")
                 continue
             print(f"DEBUG: process_company({company_name}) returned {result}")
